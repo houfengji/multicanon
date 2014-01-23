@@ -17,8 +17,8 @@ ExoplanetInit::ExoplanetInit(string data_name, size_t num_comp, const ExoplanetH
 		
 		init.resize(num_comp * 5 + 2);
 		
-		init[10] = 2.5;
-		init[11] = 6000.;
+		init[0] = 2.5;
+		init[1] = 6000.;
 	}
 	
 	if (data_name.compare("data1") == 0 && num_comp == 1) {
@@ -31,8 +31,8 @@ ExoplanetInit::ExoplanetInit(string data_name, size_t num_comp, const ExoplanetH
 		init[2] = 1.;
 		init[3] = 0.05;
 		init[4] = 4.;
-		init[10] = 2.;
-		init[11] = 100.;
+		init[5] = 2.;
+		init[6] = 100.;
 	}
 	
 	if (data_name.compare("data1") == 0 && num_comp == 2) {
